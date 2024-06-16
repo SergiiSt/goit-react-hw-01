@@ -1,5 +1,4 @@
 .cardWrap {
-  /* margin-left: 10px; */
   margin-top: 5px;
   display: flex;
   flex-wrap: wrap;
@@ -14,4 +13,12 @@
 
 .paragraph:last-child {
     margin-bottom: 10px;
+}
+
+.online {
+    color: rgb(18, 224, 18);
+}
+
+.offline {
+    color: red;
 }
