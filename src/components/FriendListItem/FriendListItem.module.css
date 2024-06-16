@@ -1,0 +1,17 @@
+.cardWrap {
+  /* margin-left: 10px; */
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.paragraph {
+  padding-left: 5px;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.paragraph:last-child {
+    margin-bottom: 10px;
+}

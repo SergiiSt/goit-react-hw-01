@@ -10,21 +10,21 @@ export default function Profile({ profprop: { username, tag, location, avatar, s
  src={avatar} className={css.profilePic}
  alt="User avatar"
  />
- <p>{username}</p>
- <p>{tag}</p>
- <p>{location}</p>
+ <p className={css.paragraph}>{username}</p>
+ <p className={css.paragraph}>{tag}</p>
+ <p className={css.paragraph}>{location}</p>
  </div>
 
  <ul className={css.profList}>
- <li>
+ <li className={css.listItem}>
  <span>Followers</span>
  <span>{followers}</span>
  </li>
- <li>
+ <li className={css.listItem}>
  <span>Views</span>
  <span>{views}</span>
  </li>
- <li>
+ <li className={css.listItem}>
  <span>Likes</span>
  <span>{likes}</span>
  </li>
